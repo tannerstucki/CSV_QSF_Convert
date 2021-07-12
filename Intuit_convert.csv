@@ -1,0 +1,42 @@
+Question Number,Block,Question Text,Question Type,Choices,Matrix Scale Points,Randomization,Display Logic
+1,Section 1: Understanding the customer,What is the name of your company?,Text Entry,,,,
+2,,What is your role at the company?,Text Entry,,,,
+3,,How many employees work for your company?,Multiple Choice - Single Select,"1-9, 10-99, 100+
+",,,
+4,,What industry do you work in?,Multiple Choice - Single Select,"Accounting Tax Preparation Bookkeeping and Payroll Services, Legal Services, Scientific Research and Development Services, Architectural Engineering and Related Services, Specialized Design Services, Advertising Public Relations and Related Services, Other Professional Scientific and Technical Services, Computer Systems Design and Related Services, Management Scientific and Technical Consulting Services, Other (Text Entry)
+",,Yes,
+5,,Do you know what a Customer Relationship Management (CRM) system is? ,Multiple Choice - Single Select,"Yes, No
+",,,
+6,,How would you define Customer Relationship Management (CRM)?,Text Entry,,,,
+Text block,,"For the purpose of this survey, we will define CRM as the technology/process  for managing all your company's relationships and interactions with customers and potential customers.",Text,,,,
+7,,"How do you currently solve for your Customer Relationship Management (CRM) needs? Ex. Collecting customer information, tracking leads, communicating with customers",Multiple Choice - Multiple Select,"Email, Website, Slack, Google Docs/Spreadsheets, CRM Solution Software (ex. Salesforce HubSpot Zoho), I don’t need to (Exclusive), Other (Text Entry), I’m not sure (Exclusive) 
+",,Yes,
+8,,What CRM solution software do you use?,Multiple Choice - Single Select,"Salesforce, HubSpot, Monday, Freshworks, Pipedrive, Keap, Oracle, Zoho, Method CRM, Freshsales, ZenDesk, Insightly, Other (Text Entry)
+",,Yes,
+9,,How satisfied are you with your current CRM process? ,Multiple Choice - Single Select,"1, 2, 3, 4, 5",,,
+10,,How does your business manage its books? (Select all that apply),Multiple Choice - Multiple Select,"Accounting software (QuickBooks NetSuite FreshBooks etc.), Hire a professional/accountant, Spreadsheets/Excel, I’m not sure (Exclusive)",,Yes,
+11,,What Accounting software do you use?,Multiple Choice - Single Select,"QuickBooks, NetSuite, Zero, FreshBooks, Microsoft Dynamics, Other 
+",,Yes,
+12,,How satisfied are you with your current bookkeeping solution?,Multiple Choice - Single Select,"1, 2, 3, 4, 5",,,
+13,,Do you currently use any integration that syncs your CRM and bookkeeping data? ,Multiple Choice - Single Select,"Yes, No, I’m not sure, Other (Text Entry)
+",,,
+14,Section 2: Identifying pain points,What pain points do you experience with your current CRM process? (select all that apply),Multiple Choice - Multiple Select,"Manual data entry, Identifying/tracking potential customers, Fragmented customer experience/too many steps, Lack of integration with accounting software, Lack of coordination between finance and sales teams, Centralizing data, Long sales cycle, Other (Text Entry), I’m not sure
+",,Yes,
+15,,What pain points do you experience with your current bookkeeping process? (select all that apply),Multiple Choice - Multiple Select,"Manual data entry, Don't’ have a CFO or controller, Time consuming, Mistakes from manual entry of customer information, Long process to get paid, Data is not centralized, Cash flow, Managing paperwork, Closing the books each month, Managing payroll, Accounts receivable/collections, Other (Text Entry), I’m not sure
+",,Yes,
+16,,Select all statements that resonate with you ,Multiple Choice - Multiple Select,"When a deal/sale is closed it takes too long to get paid, 
+When a deal/sale is closed I have to manually enter data in both my CRM and accounting software, When a deal/sale is closed there is back and forth between my sales and finance teams before getting paid, When a deal/sale is closed it takes too long for the estimate to be approved, When a deal/sale is closed it takes too long to get paid",,Yes,
+17,,Select all statements that resonate with you ,Multiple Choice - Multiple Select,"I waste time transferring data between my CRM and accounting solutions, I am worried about making errors when transferring sales data to my books, My sales team has no visibility into the status of a closed deal/when they will receive commission., None of the above (Exclusive)",,Yes,
+18,,Have you or will you use the following business productivity services? OR which of the following specialized services do you have a need for?,Multiple Choice - Multiple Select,"Data Migration, Hosting, Customized Reporting, Set Up and Training, Implementation, Custom app development, App Integration
+",,Yes,
+19,Section 3: Identify desired E-Book content ,"Please indicate how much you agree with each statement on a scale from 1 to 5 (1 = strongly disagree, 5 = strongly agree) CRM",Matrix Table,"I want to learn more about tracking prospects and current customers?, 
+I want to learn more about tracking sales data, I want to learn more about speeding up my sales cycle 
+","1, 2, 3, 4, 5",Yes,
+20,,"Please indicate how much you agree with each statement on a scale from 1 to 5 (1 = strongly disagree, 5 = strongly agree) Bookkeeping",Matrix Table,"I want to learn more about improving my cash flow, I want to learn more about improving the process in which I get paid I want to learn more about interpreting business results, I want to learn more about reporting 
+","1, 2, 3, 4, 5",Yes,
+21,,"Please indicate how much you agree with each statement on a scale from 1 to 5 (1 = strongly disagree, 5 = strongly agree) Syncing CRM & Accounting",Matrix Table,"I want to learn more about how to connect my CRM and Accounting solutions, I want to learn more about the benefits of syncing my sales and accounting data, I want to learn more about which finance or revenue metrics I should be tracking, I want to learn more about how my finance and marketing teams can work better together
+","1, 2, 3, 4, 5",Yes,
+22,Section 4: Gathering feedback on different messaging/positioning   ,"Please indicate how much you agree with each statement on a scale from 1 to 5 (1 = strongly disagree, 5 = strongly agree)",Matrix Table,"Speeding up my sales cycle will help my business, Spending less time on manual data entry will help my business, Manual data entry makes me lose money due to errors on time, Improving the process of how  I track prospective and current customers will help my business, Improving coordination between my sales and finance team will help my business, Approval process for estimates and invoices slow down my business, Centralizing all my sales and accounting data will help my business, Getting cash faster will help my business
+","1, 2, 3, 4, 5",Yes,
+23,,Select all statements that sound appealing to you ,Multiple Choice - Multiple Select,"One centralized place for sales and accounting teams will help my business get paid faster and shorten sales cycle., One common place for sales and accounting teams will save time and reduce mistakes or out of date information., One common place to communicate with customers and send invoices., Centralized data so for all your customer pertinent information you need to run your business exactly where you need it, when you need it., Streamline communication among your finance and sales teams, Custom workflows in my systems to accelerate approval process
+",,Yes,
