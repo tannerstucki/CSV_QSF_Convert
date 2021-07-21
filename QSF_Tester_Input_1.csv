@@ -1,31 +1,38 @@
 Question Number,Block,Question Text,Question Type,Choices,Matrix Scale Points,Randomization,Display Logic
-1,Block 1,Welcome to my survey. Fill it all out. Stay frosty.,Text,,,,
-2,Block 1,What is your favorite food?,Multiple Choice - Single Select,"Burgers
+Q1,Block 1,Welcome to my survey. Fill it all out. Stay frosty.,Text,,,,
+Q2,Block 1,What is your favorite food?,Multiple Choice - Single Select,"Burgers
 Tacos
 Pizza
 Chicken Nuggets
-Other (Text Entry Anchor) ",,Yes,
-3,,What sports do you play?,Multiple Choice - Multiple Select,"Basketball
+Other [Text Entry Anchor]
+",,Yes,
+Q3,,What sports do you play?,Multiple Choice - Multiple Select,"Basketball
 Football
 Tennis
 Cricket
-All of the above (Exclusive Anchor)
-None of the above (Exclusive Anchor)",,Yes,
-4,Block 1,Where are you from?,Text Entry,,,,
-5,Block 2,What is your tshirt size?,Multiple Choice - Single Select,"Small
+All of the above [Exclusive Anchor]
+None of the above [Exclusive Anchor]",,Yes,
+Q4,Block 1,Where are you from?,Text Entry,,,,Q3 is 1
+Q5,Block 2,What is your tshirt size?,Multiple Choice - Single Select,"Small
+
 Medium
-Large",,,
-6,,What do you think about the following brands?,Matrix Table - Single Select,"Apple
+Large",,,"Q3 is not 2
+and Q3 is not 3"
+Q6,,What do you think about the following brands?,Matrix Table - Single Select,"Apple
 Samsung
 Google","Hate it
+
 Like it
 Love it",Yes,
-7,Block 2,What is your phone number?,Text Entry,,,,
-8,,What do you like for breakfast?,Multiple Choice - Multiple Select,"Cereal
+Q7,Block 2,What is your phone number?,Text Entry,,,,
+Q8,,What do you like for breakfast?,Multiple Choice - Multiple Select,"
+Cereal
 Pancakes
 Buscuits and gravy
-Steak",,Yes,
-9,,How have you shopped at the following locations?,Matrix Table - Multiple Select,"Walmart
+Steak",,Yes,"Q2 is not 1
+and Q6 is not 2
+or Q3 is 3"
+Rando,,How have you shopped at the following locations?,Matrix Table - Multiple Select,"Walmart
 Target
 Best Buy","In Store
 Online

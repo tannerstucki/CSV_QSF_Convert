@@ -28,7 +28,7 @@ randomization_index = 6
 block_index = 1
 
 #Line arguments
-comma_new_line_index = 2
+comma_new_line_index = 3
 
 survey_entry = {
   "SurveyID": survey_id,
@@ -263,13 +263,30 @@ def resetRandomization():
   }
   return randomization
 
+def resetDisplayLogic():
+  display_logic = {
+      "LogicType": "Question",
+      "QuestionID": None,
+      "QuestionIsInLoop": "no",
+      "ChoiceLocator": None,
+      "Operator": None,
+      "QuestionIDFromLocator": None,
+      "LeftOperand": None,
+      "Type": "Expression",
+  }
 
-def buildDefaultQsf(qsf_output): 
+  return display_logic
+
+
+def buildDefaultQsf(qsf_output, opp_name):
   qsf_output['SurveyEntry'] = survey_entry
   qsf_output['SurveyElements'] = []
   qsf_output['SurveyElements'].append(survey_blocks)
   qsf_output['SurveyElements'].append(survey_flow)
   qsf_output['SurveyElements'].append(survey_options)
+  if opp_name != "":
+    print(opp_name)
+    qsf_output['SurveyElements'][1]["Payload"]["Flow"][0]["EmbeddedData"][0]["Value"] = opp_name
   return qsf_output
 
 def gatherCsvData(qsf_input, csv_input_name):
@@ -340,19 +357,26 @@ def buildChoices(question, cur_question):
       choices = question[choices_index].split("\n")
 
     for choice_iteration, choice in enumerate(choices):
+      bad_input_offset = 0
       exclusive_option = "exclusive"
       text_entry_option = "text entry"
       anchor_option = "anchor"
       cur_choice = {"Display":choice.strip()}
 
+      if choice.strip() == "":
+        #This is meant to offset the choice iteration if there is bad input
+        #Should be very rare so not persuing
+        bad_input_offset = bad_input_offset + 1
+        continue
+
       #Get exclusive options
       if exclusive_option in choice.lower():
-        cur_choice["Display"] = choice.split("(", 1)[0].strip()
+        cur_choice["Display"] = choice.split("[", 1)[0].strip()
         cur_choice["ExclusiveAnswer"] = True
 
       #Get text entry options
       if text_entry_option in choice.lower():
-        cur_choice["Display"] = choice.split("(", 1)[0].strip()
+        cur_choice["Display"] = choice.split("[", 1)[0].strip()
         cur_choice["TextEntry"] = "true"
         cur_choice["TextEntryForceResponse"] = True
 
@@ -395,6 +419,9 @@ def buildMatrixTableScalePoints(question, cur_question):
       cur_scale_point = {
         "Display":scale_point.strip()
       }
+
+      if scale_point.strip() == "":
+        continue
 
       cur_question["Payload"]["Answers"][scale_iteration + 1] = cur_scale_point
       cur_question["Payload"]["AnswerOrder"].append(str(scale_iteration + 1))
@@ -467,6 +494,54 @@ def addQuestionToBlock(question_iteration, qsf_output, question, qsf_input):
     qsf_output['SurveyElements'][0]["Payload"][cur_block_index]["BlockElements"].append({"Type": "Page Break"})
   return qsf_output
 
+def buildDisplayLogic(question, cur_question, qsf_output):
+  if question[display_logic_index] == "":
+    return cur_question
+
+  display_logic_value = {
+    "0": {}
+  }
+  
+  if comma_new_line == "comma":
+    display_logics = question[display_logic_index].split(",")
+  else:
+    display_logics = question[display_logic_index].split("\n")
+
+  for display_logic_iteration, display_logic in enumerate(display_logics):
+    cur_display_logic = resetDisplayLogic()
+
+    cur_export_tag = display_logics[display_logic_iteration].split("is",1)[0].strip()
+    if display_logic_iteration > 0:
+      conjunction = cur_export_tag.split()[0]
+      cur_export_tag = cur_export_tag.split(' ', 1)[1]
+      cur_display_logic["Conjuction"] = conjunction.capitalize()
+
+    cur_choice_index = display_logics[display_logic_iteration].split()[-1].strip()
+    if "is not" in display_logics[display_logic_iteration]:
+      Operator = "NotSelected"
+    else:
+      Operator = "Selected"
+
+    cur_display_logic["Operator"] = Operator
+
+    for question_iteration, question in enumerate(qsf_output["SurveyElements"]):
+      if "DataExportTag" in question["Payload"] and question["Payload"]["DataExportTag"] == cur_export_tag:
+        QuestionID = question["PrimaryAttribute"]
+        ChoiceLocator = "q://" + QuestionID + "/SelectableChoice/" + cur_choice_index
+        continue
+
+    cur_display_logic["QuestionID"] = QuestionID
+    cur_display_logic["ChoiceLocator"] = ChoiceLocator
+    cur_display_logic["QuestionIDFromLocator"] = QuestionID
+    cur_display_logic["LeftOperand"] = ChoiceLocator
+    display_logic_value["0"][str(display_logic_iteration)] = cur_display_logic
+
+  display_logic_value["0"]["Type"] = "If"
+  display_logic_value["Type"] = "BooleanExpression"
+  display_logic_value["inPage"] = False
+  cur_question["Payload"]["DisplayLogic"] = display_logic_value
+  return cur_question
+
 def createQuestions(qsf_input, qsf_output):
   for question_iteration, question in enumerate(qsf_input[1:]):
     if question[question_type_index].lower() != "text entry":
@@ -504,6 +579,9 @@ def createQuestions(qsf_input, qsf_output):
 
     #Get matrix table scale points
     cur_question = buildMatrixTableScalePoints(question, cur_question)
+
+    #Build display logic
+    cur_question = buildDisplayLogic(question, cur_question, qsf_output)
 
     qsf_output['SurveyElements'].append(cur_question)
 

@@ -1,0 +1,10 @@
+Question Number|Block*Question Text*Question Type*Choices*Matrix Scale Points*Randomization*Display Logic*
+Ticket Type|Block 1*Which type of 2021 Kansas City Royals ticket buyer best describes you?*Multiple Choice – Single Select*Suite owner
+Full Season Ticket Member
+Half Season Ticket Member
+20 Game Season Ticket Member
+Select 64 Season Ticket Member
+Individual ticket buyer
+Guest (tickets were given to me)
+None of these apply to me (Anchor)|*Yes**
+
