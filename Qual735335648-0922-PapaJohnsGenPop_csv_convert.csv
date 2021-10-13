@@ -1,0 +1,99 @@
+Question Number,Block,Question Text,Question Type,Choices,Matrix Scale Points,Randomization,Display Logic,Terminate
+Q1,Brand Awareness,Do you buy Papa John’s products?,Multiple Choice - Single Select,"Yes
+No",,,,
+Q2,,When was the last time you bought Papa John’s products?,Multiple Choice - Single Select,"Less than 1 month
+Less than 6 months
+Less than 12 months
+Less than 24 months",,,Q1 is 1,
+Q3,,Why do you buy Papa John’s products?,Multiple Choice - Single Select,"Price
+Taste
+Product offering
+Quality of ingredients
+Convenience
+Other [Text Entry]",,,Q1 is 1,
+Q4,Packaging Material and Waste,Do you consider Papa John’s packaging to be sustainable?,Multiple Choice - Single Select,"Yes
+No",,,,
+Q5,,Which of these attributes do you think best describe Papa John’s packaging? (select all that apply),Multiple Choice - Multiple Select,"Durable
+Efficient
+Reusable
+Wasteful
+Repurposed
+Recycleable
+Other [Text Entry]",,,,
+Q6,,Are you familiar with the following Papa John’s resource minimizing initiatives? (select all that apply),Multiple Choice - Multiple Select,"Increasing fuel efficiency of commercial fleet
+Implemententing efficient routing programs
+Implementing more efficient cold storage
+In-store energy efficient ovens
+Reusable kitchen supplies 
+Upgraded food inventory management
+Diverting excess food from landfills
+Other [Text Entry]
+None of the above [Exclusive]",,,,
+Q7,Raw Material Sourcing,Do you consider Papa John’s sourcing practices to be humane?,Multiple Choice - Single Select,"Yes
+No",,,,
+Q8,,"Do you agree with the following statement: Papa John’s ingredients are more sustainably sourced relative to its competitors (i.e., Domino’s, Pizza Hut)",Multiple Choice - Single Select,"5 – Strongly agree
+4 – Agree
+3 – Somewhat agree
+2 – Disagree
+1 – Strongly disagree
+Undecided",,,,
+Q9,,Are you familiar with the following Papa John’s sustainable sourcing practices?,Multiple Choice - Multiple Select,"Commitment to animal welfare
+Supplier diversity
+Annual supplier audits
+Other [Text Entry]
+None of the above [Exclusive]",,,,
+Q10,Food Safety and Ingredients,Do you find Papa John’s nutritional information to be accessible?,Multiple Choice - Single Select,"Yes
+No",,,,
+Q11,,"Do you agree with the following statement: Papa John’s ingredients are more safe relative to its competitors (i.e., Domino’s, Pizza Hut)",Multiple Choice - Single Select,"5 – Strongly agree
+4 – Agree
+3 – Somewhat agree
+2 – Disagree
+1 – Strongly disagree
+Undecided",,,,
+Q12,,"Do you agree with the following statement: Papa John’s ingredients are higher quality relative to its competitors (i.e., Domino’s, Pizza Hut)",Multiple Choice - Single Select,"5 – Strongly agree
+4 – Agree
+3 – Somewhat agree
+2 – Disagree
+1 – Strongly disagree
+Undecided",,,,
+Q13,,"Do you agree with the following statement: Papa John’s ingredients are more nutritious relative to its competitors (i.e., Domino’s, Pizza Hut)",Multiple Choice - Single Select,"5 – Strongly agree
+4 – Agree
+3 – Somewhat agree
+2 – Disagree
+1 – Strongly disagree
+Undecided",,,,
+Q14,,How would you describe Papa John’s food products? (select all that apply),Multiple Choice - Multiple Select,"Safe
+Simple
+Processed
+Fresh
+Superior
+Clean ingredients
+Transparent
+Innovative
+Responsibly sourced
+Nutritious
+Caloric
+Innovative
+Unhealthy
+Balanced
+Tasty
+Other [Text Entry]",,,,
+Q15,,Do you have any of the following dietary restrictions? (select all that apply),Multiple Choice - Multiple Select,"Vegan
+Lactose intolerant
+Gluten intolerant or sensitive
+Kosher
+Keto
+Diabetes
+Dairy-free
+Other [Text Entry]
+None of the above [Exclusive]",,,,
+Q16,,"If you selected one or more responses, do you feel that Papa John’s products meet your dietary needs?",Multiple Choice - Single Select,"Yes
+No",,,Q15 is not 9,
+Q17,Social,Are you familiar with The Papa John’s Foundation for Building Community?,Multiple Choice - Single Select,"Yes
+No",,,,
+Q18,Governance,Do you believe that Papa John’s is committed to diversity and inclusion?,Multiple Choice - Single Select,"5 – Strongly agree
+4 – Agree
+3 – Somewhat agree
+2 – Disagree
+1 – Strongly disagree
+Undecided",,,,

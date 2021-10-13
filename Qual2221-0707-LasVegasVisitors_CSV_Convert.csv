@@ -1,0 +1,275 @@
+Question Number,Block,Question Text,Question Type,Choices,Matrix Scale Points,Randomization,Display Logic,Terminate
+1,Screener,Which of the following destinations have you visited in the past five years? (Please select all that apply.),Multiple Choice - Multiple Select,"Hong Kong
+Hawaii
+Las Vegas
+Bahamas
+London
+Orlando
+Paris
+None of the above [Exclusive]",,,,Is not 3
+2,,Which of the following destinations are you planning to visit in the next 12 months? (Please select all that apply.),Multiple Choice - Multiple Select,"Hong Kong
+Hawaii
+Las Vegas
+Bahamas
+London
+Orlando
+Paris
+None of the above [Exclusive]",,,,Is not 3
+3,,How many times have you ever been to Las Vegas?,Multiple Choice - Single Select,"Once
+Twice
+3-5 times
+6-10 times
+More than 10 times
+I have never visited Las Vegas",,,,Is 6
+4,,Which of the following activities would you expect to do during your next visit to Las Vegas? (Select all that apply.),Multiple Choice - Multiple Select,"Gamble in a casino
+Bet on sports
+Attend a show, concert, or comedy act
+Eat at a fine dining restaurant
+Visit a bar/lounge/nightclub
+Attend a sporting event
+Go to the pool
+Spa/Salon
+None of the above [Exclusive]",,,,Is not 3
+5,,Which of the following brands are you familiar with?  Select all that apply.,Multiple Choice - Multiple Select,"Cirque du Soleil
+Spiegelworld
+MGM Resorts
+Caesars Entertainment
+Wynn Resorts
+Disney
+America’s Got Talent
+Ringling Brothers
+Barnum & Bailey
+None of the above [Exclusive Anchor]",,Yes,,
+6,,Please indicate your age from the following choices:,Multiple Choice - Single Select,"Under 21
+21-24
+25-29
+30-34
+35-39
+40-44
+45-49
+50-54
+55-59
+60-65	
+Over 65",,,,"Is 1
+or is 2
+or is 10
+or is 11"
+7,,What is your gender?,Multiple Choice - Single Select,"Female
+Male
+Other",,,,
+8,,What is your annual household income?,Multiple Choice - Single Select,"Less than $30,000
+$30,000 to $49,999
+$50,000 to $74,999				
+$75,000 to $99,999			
+$100,000 to $149,999
+$150,000 to $199,999
+$200,000 or more
+Decline to answer",,,,"Is 1
+or is 2
+or is 8"
+9,Entertainment Preferences,"For the rest of the survey, we would like to ask about your entertainment preferences in Las Vegas.",Text,,,,,
+10,,What type of shows/events in Las Vegas are most appealing to you?,Multiple Choice - Single Select,"Comedy
+Acrobatics
+Magic
+Sensual/Adult 
+Music/Concerts
+Family/Kids
+Sports
+Other (please specify) [Text Entry Anchor]",,Yes,,
+11,,Which of the following Las Vegas shows have you heard of? Select all that apply.,Multiple Choice - Multiple Select,"Absinthe
+Atomic Saloon Show
+Blue Man Group
+Carrot Top
+Criss Angel Mindfreak
+David Copperfield
+JABBAWOCKEEZ
+Ka
+Michael Jackson One
+Mystere
+O
+Opium
+Penn & Teller
+Shin Lim
+Terry Fator
+The Beatles LOVE
+Tournament of Kings
+Zumanity
+None of the above [Exclusive Anchor]",,Yes,,
+12,,Which of these shows have you attended in Las Vegas?,Multiple Choice - Multiple Select,,,,11 is not 19,
+13,,Which of these shows would you consider attending on a future visit to Las Vegas?,Multiple Choice - Multiple Select,,,,11 is not 19,
+A1,Path A,"Next, we would like to present a potential new show concept for Las Vegas.  Please read the description, watch the video, and let us know what you think of the show.
+DESCRIPTION
+New York City and Sin City collide in Mad Apple, a one-of-a-kind experience.  Arrive early to be entertained by a host of outrageous characters at an exquisitely designed custom bar, which then seamlessly transforms into a performance space.
+Only here will you discover such an incredible collection of comedians, singers, dancers, magicians, unorthodox talents, and jaw-dropping acrobatics, accentuated by a soundtrack of iconic music hits.  Epitomizing the vibrancy and magnetism of The City That Never Sleeps, this immersive cabaret-style production culminates in a grand finale at a New York-inspired exclusive club, where the party continues long into the night. ",Text,,,,,
+A2,,How interested would you be in attending this show on your next visit to Las Vegas? ,Multiple Choice - Single Select,"0 Not at all interested
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10 Very interested",,,,
+A3,,What do you find most appealing about this show? Please be specific. ,Text Entry,,,,"A2 is 8
+or A2 is 9
+or A2 is 10
+or A2 is 11",
+A4,,Please provide any comments on why this show concept does not appeal to you.,Text Entry,,,,"A2 is 1
+or A2 is 2
+or A2 is 3
+or A2 is 4",
+A5,,Please highlight the words or phrases that you most like or dislike about this show description.,Text,,,,,
+A6,,What would you expect to be a fair/average price per ticket for this show?  $,Text Entry,,,,,
+A7,,Which of the following would you use to describe this show concept? Select all that apply.,Multiple Choice - Multiple Select,"Unique
+Refreshing
+Creative
+Intriguing
+Stimulating
+Trendy
+Modern
+Charming
+Sophisticated
+Upscale
+Joyful
+Timeless
+Energetic
+Boring
+Basic
+Outdated",,Yes,,
+A8,Producer Testing,What is your overall impression of each of these brands?,Matrix Table - Single Select,,"0 Very bad
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10 Very good",,,
+A9,,"Thinking about the show concept presented earlier in the survey, imagine that show was produced by each of the companies below.  How much do you agree that this show would be a good fit for that company.  This show would be a good fit for…",Matrix Table - Single Select,,"0 Completely Disagree
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10 Completely Agree",,,
+A10,,"If each of these companies was the producer of the show, how would that impact your interest in attending the show?",Matrix Table - Single Select,,"Much less interested
+Slightly less interested
+No impact
+Slightly more interested
+Much more interested",,,
+A11,,Which company do you think would be the best producer for this show?,Multiple Choice - Single Select,,,,,
+A12,,Why do you feel [INSERT RESPONSE FROM A11] would be the best producer for this show?  ,Text Entry,,,,,
+A13,,"If this show were produced by [INSERT RESPONSE FROM A11], What would you expect to be a fair/average price per ticket for this show?  $",Text Entry,,,,,
+B1,Path B,"Next, we would like to present a potential new show concept for Las Vegas.  Please read the description, watch the video, and let us know what you think of the show. DESCRIPTION
+New York City and Sin City collide in Mad Apple, a one-of-a-kind experience presented by Cirque du Soleil.  Arrive early to be entertained by a host of outrageous characters at an exquisitely designed custom bar, which then seamlessly transforms into a performance space.
+Only here will you discover such an incredible collection of comedians, singers, dancers, magicians, unorthodox talents, and jaw-dropping acrobatics, accentuated by a soundtrack of iconic music hits.  Epitomizing the vibrancy and magnetism of The City That Never Sleeps, this immersive cabaret-style cirque production culminates in a grand finale at a New York-inspired exclusive club, where the party continues long into the night. ",Text,,,,,
+B2,,How interested would you be in attending this show on your next visit to Las Vegas?,Multiple Choice - Single Select,"0 Not at all interested
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10 Very interested",,,,
+B3,,What do you find most appealing about this show? Please be specific. ,Text Entry,,,,"B2 is 8
+or B2 is 9
+or B2 is 10
+or B2 is 11",
+B4,,Please provide any comments on why this show concept does not appeal to you.,Text Entry,,,,"B2 is 1
+or B2 is 2
+or B2 is 3
+or B2 is 4",
+B5,,Please highlight the words or phrases that you most like or dislike about this show description.,Text,,,,,
+B6,,What would you expect to be a fair/average price per ticket for this show?  $,Text Entry,,,,,
+B7,,Which of the following would you use to describe this show concept? Select all that apply.,Multiple Choice - Multiple Select,"Unique
+Refreshing
+Creative
+Intriguing
+Stimulating
+Trendy
+Modern
+Charming
+Sophisticated
+Upscale
+Joyful
+Timeless
+Energetic
+Boring
+Basic
+Outdated",,Yes,,
+B8,Name Testing,How appealing do you find each of the following names for this particular show?,Matrix Table - Single Select,"Mad Apple
+The Mad Apple
+Cirque Mad Apple
+The Mad Apple Experience
+NYCirque
+NYCabaret
+NYC CaBARet","0 Very bad
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10 Very good",Yes,,
+B9,,Which name do you prefer most for this show?,Multiple Choice - Single Select,"Mad Apple
+The Mad Apple
+Cirque Mad Apple
+The Mad Apple Experience
+NYCirque
+NYCabaret
+NYC CaBARet
+I don’t like any of these names [Anchor]",,Yes,,
+14,Ad Testing,"Next, we would like to show you some possible advertisements for the show and ask your opinion.",Text,,,,,
+15,,How appealing do you find this set of ad images to be?,Multiple Choice - Single Select,"0 Not at all appealing
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10 Very appealing",,,,
+16,,Which of the following would you use to describe these ads?  Select all that apply.,Multiple Choice - Multiple Select,"Unique
+Intriguing
+Modern
+Charming
+Sophisticated
+Luxurious
+Joyful
+Classic
+Energetic
+Boring
+Basic
+Outdated
+Tacky
+Offensive",,Yes,,
+17,,"Thinking about the show description you read about and saw a video for, how effective do you feel this set of ads is at communicating what the show is about? ",Multiple Choice - Single Select,"0 Not at all effective
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10 Very effective",,,,
+18,,Which of these ads is most appealing to you?,Multiple Choice - Single Select,,,Yes,,
+19,,Why is that ad campaign most appealing to you? Please be specific about what you liked most about it.,Text Entry,,,,,
+20,,"Lastly, which of these would be most likely to grab your attention and raise your interest?",Multiple Choice - Single Select,,,,,

@@ -1,0 +1,304 @@
+Question Number,Block,Question Text,Question Type,Choices,Matrix Scale Points,Randomization,Display Logic,Terminate
+Introduction,Introduction,"On behalf of Mass Save, thank you for taking the time to complete this survey. The purpose of this survey is to understand your background and interest in pursuing a job in the energy efficiency industry, as well as what motivated you to apply to the Clean Energy Pathways Internship Program and your experience so far.
+
+If you have any questions about or encounter any issues with the survey, please email [OPINION DYNAMICS NAME] at [OPINION DYNAMICS EMAIL].
+
+Please click the Next button to continue.",Text,,,,,
+S1,Screening,Our records indicate that you are currently participating or previously participated in the Clean Energy Pathways Program. Is this correct?,Multiple Choice - Single Select,"Yes
+No [USE END TEXT: We appreciate your time and interest in this study, but we are looking to survey participants in the Clean Energy Pathways Program. Thank you very much.]",,,,Is 2
+Q1,"EE Industry Knowledge, Experience, & Interest","Before applying to your internship with Clean Energy Pathways, had you ever considered a job in the energy efficiency industry?",Multiple Choice - Single Select,"Yes
+No",,,,
+Q2,,"Before applying to your internship with Clean Energy Pathways, had you ever considered a job in the <PATHWAY> industry, specifically?",Multiple Choice - Single Select,"Yes
+No",,,,
+Q3,,"Before starting your internship with Clean Energy Pathways, did you have prior training in HVAC, weatherization, or a similar field?",Multiple Choice - Single Select,"Yes
+No",,,,
+Q4,,What type of training did you have? Please select all that apply.,Multiple Choice - Multiple Select,"Informal or self-taught
+Classroom training 
+On-the-job training 
+Other, please specify: [Text Entry]",,,Q3 is 1,
+Q5,,"Before starting your internship with Clean Energy Pathways, have you ever participated in an internship or apprenticeship program of any kind?",Multiple Choice - Single Select,"Yes, and it was in the energy industry
+Yes, but it was not in the energy industry
+No, but I considered it
+No, and I did not consider it",,,,
+Q6,,"What internship or training program(s) did you participate in? 
+
+Please explain:",Text Entry,,,,"Q5 is 1
+or Q5 is 2",
+Q7,,How interested or disinterested were you in pursuing a career in the <PATHWAY> industry when you applied to the Clean Energy Pathways internship?,Multiple Choice - Single Select,"Extremely interested
+Very interested
+Somewhat interested
+A little interested
+Not at all interested",,,,
+Q8,,How interested are you in pursuing a career in the <PATHWAY> industry now?,Multiple Choice - Single Select,"Extremely interested
+Very interested
+Somewhat interested
+A little interested
+Not at all interested",,,,
+Q9,,"Why are you not interested in pursuing a career in the <PATHWAY> industry? 
+
+Please explain: ",Text Entry,,,,"Q8 is 3
+or Q8 is 4
+or Q8 is 5",
+Q10,,How would you rate your level of knowledge of the <PATHWAY> industry before starting your internship with Clean Energy Pathways?,Multiple Choice - Single Select,"Extremely knowledgeable
+Very knowledgeable
+Somewhat knowledgeable
+Slightly knowledgeable
+Not at all knowledgeable",,,,
+Q11,,"How many people did you know in the <PATHWAY> industry before starting your internship? Your best estimate is fine. 
+
+Number of people: ",Text Entry,,,,,
+Q12,,"To what extent do you agree or disagree with the following statement?
+
+Before starting my internship with Clean Energy Pathways, I had professional relationships and connections in the <PATHWAY> industry that could help me pursue a career in <PATHWAY> industry. ",Multiple Choice - Single Select,"Strongly agree
+Somewhat agree
+Slightly agree
+Neither agree nor disagree
+Slightly disagree
+Somewhat disagree
+Strongly disagree",,,,
+Q13,Clean Energy Pathways Program Motivations ,"What motivated you to pursue an internship in the <PATHWAY> industry? 
+
+Please explain: ",Text Entry,,,,,
+Q14,,"What prompted you to choose to participate in the <PATHWAY> technician training when given the choice between HVAC and weatherization? 
+
+Please explain:",Text Entry,,,,,
+Q15,,Which of the following best describes your reason for applying to the Clean Energy Pathways internship program?,Multiple Choice - Single Select,"I was interested in a job in the <PATHWAY> industry specifically
+I was interested in a job in the trades, but it did not need to be in the <PATHWAY> industry
+I was interested in a job opportunity, but it did not need to be in the trades or the <PATHWAY> industry",,Yes,,
+Q16,,Which components of the Clean Energy Pathways Program motivated you to apply? Please select all that apply.,Multiple Choice - Multiple Select,"Receiving classroom training in the <PATHWAY> industry
+Receiving on-the-job-training in the <PATHWAY> industry
+Working towards a certification in the <PATHWAY> industry
+Forming connections with businesses in the <PATHWAY> industry
+Receiving mentorship from other professionals in the <PATHWAY> industry
+Learning whether the <PATHWAY> industry is a good fit for me
+Having my training paid for
+Being paid for my work during the internship
+Receiving support from a local community-based organization throughout the internship
+Receiving assistance with job placement following the internship
+Other, please specify: [Text Entry Anchor]",,Yes,,
+Q17,,Which component of the Clean Energy Pathways Program was most important in your decision to apply?  Please select only one.,Multiple Choice - Single Select,"[ASK IF Q16=1] Receiving classroom training in the <PATHWAY> industry 
+[ASK IF Q16=2] Receiving on-the-job-training in the <PATHWAY> industry
+[ASK IF Q16=3] Working towards a certification in the <PATHWAY> industry
+[ASK IF Q16=4] Forming connections with businesses in the <PATHWAY> industry
+[ASK IF Q16=5] Receiving mentorship from other professionals in the <PATHWAY> industry
+[ASK IF Q16=6] Learning whether the <PATHWAY> industry is a good fit for me
+[ASK IF Q16=7] Having my training paid for
+[ASK IF Q16=8] Being paid for my work during the internship
+[ASK IF Q16=9] Receiving support from a local community-based organization throughout the internship
+[ASK IF Q16=10] Receiving assistance with job placement following the internship
+[ASK IF Q16=0] Other: <PIPE IN OPEN ENDED RESPONSE TO Q15> [Text Entry Anchor]",,Yes,,
+Q18,,"Why was <MOTIVATOR> [PIPE IN RESPONSE TO Q17 IF Q17<>0, IF Q17=0, DISPLAY “that”] the most important factor in your decision to apply? 
+
+Please explain: ",Text Entry,,,,,
+Q19,,"To what extent do you agree or disagree with the following statements? 
+
+Developing my skills in the <PATHWAY> industry is important for… ",Matrix Table - Single Select,"Getting a job that pays well
+Getting a job that provides good benefits
+Getting a job that is stable
+Continuing my education
+Having good job opportunities
+Learning important skills
+Addressing climate change","1 – Strongly agree
+2 – Somewhat agree
+3 – Slightly agree
+4- Neither agree nor disagree
+5 – Slightly disagree
+6 – Somewhat disagree
+7 – Strongly disagree",,,
+Q20,Barriers to Employment,The following statements ask about potential barriers to completing the internship program. Please rate your agreement or disagreement with each statement.,Matrix Table - Single Select,"Childcare responsibilities affect my ability to complete the internship
+Family responsibilities affect my ability to complete the internship
+Transportation to and from the internship affects my ability to complete it
+The physical requirements of the internship affect my ability to complete it
+Health issues affect my ability to complete the internship
+Language differences affect my ability to complete the internship
+The cannabis drug testing requirement affects my ability to complete the internship","1 – Strongly agree
+2 – Somewhat agree
+3 – Slightly agree
+4 – Neither agree or disagree
+5 – Slightly disagree
+6 – Somewhat disagree
+7 – Strongly disagree",,,
+Q21,,Is there anything else that is a barrier to completing the internship program? ,Multiple Choice - Single Select,"Please explain: [Text Entry]
+No other barriers",,,,
+Q22,,To what extent do you agree or disagree with this statement?: I am confident in my ability to get a job in the <PATHWAY> industry today.,Multiple Choice - Single Select,"Strongly agree
+Somewhat agree
+Slightly agree
+Neither agree nor disagree
+Slightly disagree
+Somewhat disagree
+Strongly disagree",,,"Q8 is 1
+or Q8 is 2
+or Q8 is 3
+or Q8 is 4",
+Q23,Internship Experience to Date,How did you hear about the Clean Energy Pathways program? Please select all that apply.,Multiple Choice - Multiple Select,"An Internet search engine like Google, Yahoo, Bing, etc.
+Email blast or electronic newsletter
+Printed materials, such as an informational brochure or fact sheet
+MassSave website
+Technical/vocational school
+Friends or colleagues
+Social media like Facebook, Twitter, Instagram, etc.
+Radio
+TV
+Other, please specify: [Text Entry Anchor]
+Don't know [Anchor]",,Yes,,
+Q24,,How would you rate the application process for the Clean Energy Pathways internship?,Multiple Choice - Single Select,"Excellent
+Good
+Neutral
+Poor
+Terrible",,,,
+Q25,,"What parts of the application process do you think need improvement? 
+
+Please explain:",Text Entry,,,,"Q24 is 3
+or Q24 is 4
+or Q24 is 5",
+Q26,,How useful was the classroom training you received as part of the Clean Energy Pathways internship to-date?,Multiple Choice - Single Select,"Extremely useful
+Very useful
+Somewhat useful
+Slightly useful
+Not at all useful",,,,
+Q27,,"What parts of the classroom training do you think need improvement? Why do you say that?
+
+Please explain:",Text Entry,,,,"Q26 is 3
+or Q26 is 4
+or Q26 is 5",
+Q28,,"What parts of the classroom training are most useful for the work you are doing? Why do you say that?
+
+Please explain:",Text Entry,,,,"Q26 is 1
+or Q26 is 2
+or Q26 is 3
+or Q26 is 4",
+Q29,,"On a scale from 1 to 7 with 1 being “not at all” and 7 being “very much,” how much do you agree with each of the following statements about your experience with Clean Energy Pathways so far?",Matrix Table - Single Select,"I learned a lot from the classroom training
+The classroom training is relevant to the work I am doing
+I am getting the support I need as part of this internship program
+I am learning a lot on the job 
+I feel confident that I will be able to complete the internship","1
+2
+3
+4
+5
+6
+7",,,
+Q30,,"Overall, how would you rate your internship placement so far?",Multiple Choice - Single Select,"Excellent
+Good
+Neutral
+Poor
+Terrible",,,,
+Q31,,"What parts of your internship placement need improvement? 
+
+Please explain: ",Text Entry,,,,"Q30 is 3
+or Q30 is 4
+or Q30 is 5",
+Q32,,"According to our records, you are no longer participating in the Clean Energy Pathways internship program. Is this correct?",Multiple Choice - Single Select,"Yes
+No",,,,
+Q33,,"Why did you drop out of the Clean Energy Pathways internship program? 
+
+Please explain: ",Text Entry,,,,Q32 is 1,
+Q34,,"What, if anything, could Clean Energy Pathways have done differently that would have allowed you to continue participating?
+
+Please explain: ",Text Entry,,,,Q32 is 1,
+Q35,Demographics,"We’re almost finished. The last few questions are about your background to help us understand who the program is reaching and how it might be improved to assist workers like yourself. Remember that your responses will remain confidential.
+
+How adults and children live in your household? ",Multiple Choice - Single Select,"Number of adults 18 years or older (including yourself):
+Number of children:",,,,
+Q36,,What is your marital status?,Multiple Choice - Single Select,"Single (never married)
+Married or in a domestic partnership
+Widowed
+Divorced
+Separated",,,,
+Q37,,How do you typically get to your Clean Energy Pathways internship?,Multiple Choice - Single Select,"Public transportation
+Car – Drive alone
+Car – Carpool with other(s)
+Walk or bike
+Other, please specify: [Text Entry]",,,,
+Q38,,How satisfied are you with the public transportation options you have access to?,Multiple Choice - Single Select,"Very satisfied
+Somewhat satisfied
+Slightly satisfied
+Neither satisfied nor dissatisfied
+Slightly dissatisfied
+Somewhat dissatisfied
+Very dissatisfied
+I don’t have access to public transportation
+Don’t know",,,,
+Q39,,Why are you not more satisfied with public transportation options? Please select all that apply.,Multiple Choice - Single Select,"It is too far from my home
+It is too far from my work
+The bus/train does not come often enough
+It takes too long to get where I need to go
+It does not take me where I need to go
+It is too expensive
+It is unreliable
+Other, please specify: [Text Entry Anchor]",,Yes,"Q38 is 3 
+or Q38 is 4
+or Q38 is 5
+or Q38 is 6
+or Q38 is 7
+or Q38 is 8",
+Q40,,How often do you have access to a car?,Multiple Choice - Single Select,"Always
+Often
+Sometimes
+Rarely
+Never",,,,
+Q41,,What is the primary language you speak at home?,Multiple Choice - Single Select,"English
+Spanish
+Portuguese
+Chinese (Mandarin or Cantonese)
+Other, please specify: [Text Entry]",,,,
+Q42,,"What was your employment status as of July 1, 2021?",Multiple Choice - Single Select,"Employed full-time
+Employed part-time
+Homemaker or caregiver
+Student
+Not employed, but actively looking for work
+Not employed, and not looking for work
+Other, please specify: [Text Entry]",,,,
+Q43,,"How many jobs were you actively employed at as of July 1, 2021?
+
+Number of jobs:",Text Entry,,,,"Q42 is 1
+or Q42 is 2",
+Q44,,"What was your total monthly income from all jobs as of July 1, 2021? Please exclude income earned by other members of your household from this estimate.",Multiple Choice - Single Select,"Under $1,000
+$1,000 to under $2,000
+$2,000 to under $3,000
+$3,000 to under $4,000
+$4,000 to under $5,000
+$5,000 to under $6,000
+$6,000 to under $7,000
+$7,000 to under $8,000
+$8,000 to under $9,000
+$10,000 or more
+Don't know
+Prefer not to say",,,,
+Q45,,Are you currently employed at any jobs in addition to your Clean Energy Pathways internship?,Multiple Choice - Single Select,"Yes
+No",,,,
+Q46,,What is your approximate monthly income from all jobs other than your Clean Energy Pathways internship? Please exclude income earned by other members of your household from this estimate.,Multiple Choice - Single Select,"Under $1,000
+$1,000 to under $2,000
+$2,000 to under $3,000
+$3,000 to under $4,000
+$4,000 to under $5,000
+$5,000 to under $6,000
+$6,000 to under $7,000
+$7,000 to under $8,000
+$8,000 to under $9,000
+$10,000 or more
+Don't know
+Prefer not to say",,,Q45 is 1,
+Q47,,Do any other members of your household earn an income?,Multiple Choice - Single Select,"Yes
+No",,,Q35 is 1,
+Q48,,"What was your total household monthly income as of July 1, 2021?  Please include income earned by other members of your household in this estimate.",Multiple Choice - Single Select,"Under $1,000
+$1,000 to under $2,000
+$2,000 to under $3,000
+$3,000 to under $4,000
+$4,000 to under $5,000
+$5,000 to under $6,000
+$6,000 to under $7,000
+$7,000 to under $8,000
+$8,000 to under $9,000
+$10,000 to under $11,000
+$11,000 to under $12,000
+$12,000 to under $13,000
+$13,000 to under $14,000
+$14,000 to under $15,000
+$15,000 or more
+Don't know
+Prefer not to say",,,Q47 is 1,
+Q49,,Were you born outside the United States (including any U.S. territories)?,Multiple Choice - Single Select,"Yes
+No
+Don't know
+Prefer not to say",,,,

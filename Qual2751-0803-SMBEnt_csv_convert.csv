@@ -1,0 +1,178 @@
+Question Number,Block,Question Text,Question Type,Choices,Matrix Scale Points,Randomization,Display Logic,Terminate
+S1,Screener,"Using your best estimate, how many employees work for your organization worldwide? (select one.)",Multiple Choice - Single Select,"Less than 10 employees
+11 to 100 employees - code as SMB
+101 to 250 employees - code as SMB
+251 to 499 employees - code as SMB
+500 to 999 employees - code as Enterprise
+1,000 to 4,999 employees - code as Enterprise
+5,000 to 19,999 employees - code as Enterprise
+20,000 or more employees - code as Enterprise
+Don't know",,,,"Is 1
+or is 9"
+S2,,Which of the following best describes your company’s industry? (select one.),Multiple Choice - Single Select,"Advertising and/or marketing
+Agriculture, food, and/or beverage
+Business or professional services 
+Chemicals and/or metals
+Construction
+Consumer product good and/or manufacturing
+Consumer services
+Education and/or nonprofits
+Electronics
+Energy, utilities, and/or waste management
+Financial services 
+Insurance services
+Government
+Pharma and health 
+Technology and/or technology services
+Legal services
+Manufacturing and materials 
+Media and/or leisure
+Retail
+Telecommunications services
+Transportation and logistics 
+Travel and hospitality
+Other (please specify) [text entry]",,,,"Is 1
+or is 10
+or is 13
+or is 16
+or is 23"
+S3,,What is your level of responsibility when it comes to your organization’s strategy and technology decision in cross-border commerce and payment systems? (select one.),Multiple Choice - Single Select,"I am the final decision maker for these decisions
+I am part of a team making these decisions
+I influence these decisions
+I am not involved in these decisions
+Other (please specify) [text entry]
+Don’t know/does not apply",,,,"Is 4
+or is 5
+or is 6"
+S6,,Does your organization accept online payments? ,Multiple Choice - Single Select,"Yes 
+No
+Don’t Know ",,,,
+S5,,Which of the following best describes your current position/department? ,Multiple Choice - Single Select,"Finance/Accounting 
+Human resources 
+IT 
+Digital business/Ecommerce/Marketing 
+Operations 
+Procurement 
+Sales 
+Other",,,,
+S4,,What priority is your organization placing on cross-border sales over the next year? Cross-border commerce is defined as selling goods or services internationally (in another country.),Multiple Choice - Single Select,"High priority 
+Moderate priority
+Low priority 
+Not on our agenda [ask S4.2 below and screen out]
+Don’t know",,,,Is 5
+S4.1,,Please select the top reasons your organization is placing cross-border sales as a high or moderate priority in the next year? (pick up to 3) ,Multiple Choice - Multiple Select,"Experiencing an economic slow-down
+Sales decline in existing markets 
+Fully penetrated our existing markets 
+Prospects outside our current markets are asking 
+See new expansion opportunities outside existing markets 
+Keeping up with competitors who are supporting cross-border ecommerce 
+Other ",,,"S4 is 1
+or S4 is 2",
+S4.2,,Please select the top reasons your organization is placing cross-border sales as a low priority or is not on your agenda in the next year? (pick up to 3) ,Multiple Choice - Multiple Select,"Too much risk: Fraud, Legal, Compliance, Security, etc 
+Operationally complex: Pricing, Taxes, Currency, Logistics, Translation
+Complexity of working with payment systems in other countries
+Not enough internal expertise 
+Other priorities have a better ROI 
+Tried before and it didn’t work out 
+Cross-Border commerce is not relevant to our business 
+Don't have the right vendors in place 
+Other",,,"S4 is 3
+or S4 is 4",
+1,Main Survey,What is the year-over-year growth rate of your cross-border business? ,Multiple Choice - Single Select,"0%-9% 
+10%-29% 
+30%-49% 
+50%+ 
+It's not growing 
+Don't know ",,,,
+2,,How did Covid impact the priority your organization placed on cross-border commerce over the past year?,Multiple Choice - Single Select,"Increased focus on cross-border commerce
+It stayed the same
+Reduced focus on cross-border commerce",,,,
+3,,Please select your highest overall digital commerce priorities over the next year? Pick up to 3.,Multiple Choice - Multiple Select,"Digital customer experience improvements
+Replatforming commerce systems (ecommerce platforms, accounts receivable, ERP) 
+Personalization efforts 
+Improving Supply-Chain inefficiencies 
+Shipping/Logistics improvements 
+Expand cross-border selling initiatives
+Build local partnerships and/or vendor relationships
+Increasing payment methods offered 
+Increase marketplace presence 
+Other: [text entry]",,,,
+4,,Please pick the approximate percentage of your company’s online revenue coming from the following global markets/regions: ,Matrix Table - Single Select,"North America
+EMEA
+LATAM
+APAC","More than 75%
+Between 75%-50%
+Between 49%-25%
+Less than 25%
+NA",,,
+5,,How do you expect your company’s online revenue to change over the next year in the following markets/regions?,Matrix Table - Single Select,"North America
+EMEA
+LATAM
+APAC","Revenue to decrease
+Revenue to stay steady
+Revenue to increase
+No plans to sell there",,,
+6,,How important do you consider each of the following in growing your cross-border commerce? ,Matrix Table - Single Select,"Ability to accept local payment methods e.g. bank, e-wallet, cash
+Financial operational readiness e.g. repatriating funds, settlement reporting and managing FX
+Local distribution presence and supporting alternate delivery options such as ship to locker 
+Cross border shipping and logistics 
+Provide local customer 
+support 
+Building a local digital/website presence
+Understanding local regulations
+Ability to market to local customers
+Managing foreign exchange and currency risks
+Managing local compliance and regulatory risks (eg. local privacy regulations)
+Managing security risks (e.g. data security)
+Managing fraud risks (eg. chargebacks)
+Managing anti-money laundering risks (via KYB/KYC)","Extremely important (5)
+Somewhat important (4)
+Neither (3)
+Somewhat less important (2)
+Not at all important (1)",,,
+7,,Please rate your progress in implementing the following cross-border tactics in the markets/regions you do business in: ,Matrix Table - Single Select,"Acceptance of local payment methods e.g. e-wallet, cash
+Financial operational readiness e.g. repatriating funds, settlement reporting and managing FX
+Distribution presence and supporting alternate delivery options such as ship to locker 
+Cross border shipping and logistics 
+Provide local customer 
+support 
+Building a local digital/website presence
+Understanding local regulations
+Ability to market to local customers
+Manage foreign exchange and currency risks
+Manage local compliance and regulatory risks (eg. meeting local privacy regulations)
+Manage security risks (e.g. data security)
+Manage fraud risks (eg. chargebacks)
+Manage anti-money laundering risks (via KYB/KYC)","No Progress (0)
+Some Progress (1)
+Significant Progress (2)
+Fully implemented (3)
+NA/Don’t know",,,
+8,,How would you rate your organization's readiness on the following areas in implementing cross-border tactics: ,Text,,,,,
+8.1,,Our organizational structure is optimized for cross-border operations,Multiple Choice - Single Select,"Completely ready
+Somewhat ready
+Unsure
+Somewhat ready 
+Not at all ready",,,,
+8.2,,Our organization is ready to invest in local talent and culture,Multiple Choice - Single Select,"Completely ready
+Somewhat ready
+Unsure
+Somewhat ready 
+Not at all ready",,,,
+9,,What do you consider the top operational challenges when it comes to cross-border commerce? (select up to 3) ,Multiple Choice - Multiple Select,"Building a local digital/website presence (currency presentation, language translation of site/app, etc)? 
+Local expertise such as understanding local regulations including tax regulations
+Ability to provide customer support 
+Cross-border shipping and logistics 
+Supporting local payment methods 
+Managing risks: fraud, compliance, currency/FX and security, etc 
+Financial operations: repatriating funds, settlement reporting and managing FX 
+Marketing: acquiring new customers in new markets 
+Managing payment card declines",,,,
+10,,What do you consider the biggest risk when it comes to cross-border commerce? ,Multiple Choice - Single Select,"Foreign exchange and currency risks 
+Local compliance and regulatory risks (eg. meeting local privacy regulations
+Security risks (data security) 
+Fulfillment, shipping and/or logistics 
+Fraud risks (eg. chargebacks) 
+Brand/reputational risks (eg. maintaining and growing brand value) 
+Foreign trade and legal risks (eg. trade wars, inflation, economic woes ) 
+Other [text entry]",,,,
